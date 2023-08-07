@@ -1,4 +1,4 @@
 ﻿<template>
-Hello!
+    当サイトからのあいさつ
 
 </template>

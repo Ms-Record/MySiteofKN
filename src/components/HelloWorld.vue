@@ -11,8 +11,9 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-        <router-link to="/">About</router-link>
-        <router-link to="/about">Link</router-link><br />
+        <router-link to="/"> About /</router-link>
+        <router-link to="/about"> Link /</router-link>
+        <router-link to="/works"> Works </router-link><br />
 
         <RouterView />
         <TheHeader />

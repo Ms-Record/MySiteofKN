@@ -1,3 +1,3 @@
 ﻿<template>
-World
+    各SNS、サイトへのアクセス
 </template>
