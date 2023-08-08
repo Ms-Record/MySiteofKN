@@ -1,4 +1,5 @@
 ﻿<template>
-制作物の紹介
+    建設中...
+    <br />
 
 </template>

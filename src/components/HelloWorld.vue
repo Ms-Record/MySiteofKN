@@ -8,19 +8,14 @@ defineProps({
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-        <router-link to="/"> About /</router-link>
-        <router-link to="/about"> Link /</router-link>
-        <router-link to="/works"> Works </router-link><br />
+    <div class="greetings">
+        <h1 class="green">{{ msg }}</h1>
+        <h3>
+           
+        </h3>
+    </div>
 
-        <RouterView />
-        <TheHeader />
-
-
-    </h3>
-  </div>
+   
 </template>
 
 <style scoped>

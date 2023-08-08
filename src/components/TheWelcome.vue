@@ -13,15 +13,9 @@ import building from './icons/IconBuilding.vue'
             <AboutIcon />
         </template>
         <template #heading>
-            About
+            <router-link to="/about">About</router-link>
         </template>
-        まずはこのサイトの足を運んでいただき<br />
-        ありがとうございます。<br />
-        拙いサイトですが、 <br />
-        ゆっくりしていってね！！！
-        <br />
-        <br />
-
+        当サイトについて
 
     </WelcomeItem>
 
@@ -30,28 +24,22 @@ import building from './icons/IconBuilding.vue'
             <SNSicon />
         </template>
         <template #heading>
-            Link
+            <router-link to="/link">Link</router-link>
         </template>
-        SNS <br />
-        <a href="https://twitter.com/KanareN_iteng" target="_blank" rel="noopener">X(Twitter)</a><br />
-        Fediverse <br />
-        <a href="https://misskey.io/@Kanare_N" target="_blank" rel="noopener">Misskey.io</a>,
-        <a href="https://misskey.systems/@Kanare_iteng" target="_blank" rel="noopener">みすてむず</a>
-        Other <br />
-        <a href="https://github.com/Ms-Record/MySiteofKN" target="_blank" rel="noopener">Github</a>
+        各SNSリンク先
+
 
     </WelcomeItem>
 
     <WelcomeItem>
         <template #icon>
-           <building /> 
+            <building />
         </template>
         <template #heading>
-         Works
+            <router-link to="/works">Works</router-link>
         </template>
-        建設中...<br />
-
+        Vue道場他、作品など
     </WelcomeItem>
-
+   
 
 </template>

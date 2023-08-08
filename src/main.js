@@ -7,8 +7,9 @@ import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 import { createRouter, createWebHashHistory } from "vue-router"
-import MainComponent from "./pages/index.vue"
-import AbountComponent from "./pages/about.vue"
+import HomeComponent from "./pages/home.vue"
+import IndexComponent from "./pages/index.vue"
+import AboutComponent from "./pages/link.vue"
 import WorkingComponent from "./pages/works.vue"
 
 
@@ -19,11 +20,13 @@ const vuetify = createVuetify({
 
 const Home = { template: '<div>Home</div>' }
 const About = { template: '<div>About</div>' }
+const Link = { template: '<div>Link</div>' }
 const Works = { template: '<div>Works</div>' }
 
 const routes = [
-    { path: '/', component: MainComponent },
-    { path: '/about', component: AbountComponent },
+    { path: '/', component: HomeComponent },
+    { path: '/about', component: IndexComponent },
+    { path: '/link', component: AboutComponent },
     { path: '/works', component: WorkingComponent },
 ]
 
