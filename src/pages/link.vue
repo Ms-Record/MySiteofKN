@@ -10,5 +10,6 @@
     <br />
     Other
     <br />
-    <a href="https://github.com/Ms-Record/MySiteofKN" target="_blank" rel="noopener">Github</a>
+    <a href="https://github.com/Ms-Record/" target="_blank" rel="noopener">Github</a><br/>
+    <a href="https://www.pixiv.net/users/33912880/" target="_blank" rel="noopener">Pixiv</a>
 </template>

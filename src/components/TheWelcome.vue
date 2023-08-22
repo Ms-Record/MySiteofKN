@@ -26,7 +26,7 @@ import building from './icons/IconBuilding.vue'
         <template #heading>
             <router-link to="/link">Link</router-link>
         </template>
-        各SNSリンク先
+        各リンク先
 
 
     </WelcomeItem>

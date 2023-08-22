@@ -1,5 +1,6 @@
 ﻿<template>
-    建設中...
+    <router-link to="/works/illust">Illustration</router-link><br />
+    <router-link to="/works/etc">etc...</router-link><br />
     <br />
 
 </template>
