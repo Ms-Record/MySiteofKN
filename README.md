@@ -2,4 +2,8 @@
 こちらのサイトはVue 3を主に使用しております
 
 ## Webページのプレビュー
-[https://github.com/Ms-Record/MySiteofKN/tree/master/src/assets/mysite_sample_Chrome.mp4](https://github.com/Ms-Record/MySiteofKN/blob/master/src/assets/mysite_sample_Chrome.mp4)https://github.com/Ms-Record/MySiteofKN/blob/master/src/assets/mysite_sample_Chrome.mp4
+### Webサイト全体
+![mysite_sample_Chrome](https://github.com/Ms-Record/MySiteofKN/assets/76523203/b74b7992-79fb-4293-aefd-cf415e28e013)
+
+### Webサイト動作イメージ
+
