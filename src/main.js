@@ -13,6 +13,7 @@ import AboutComponent from "./pages/link.vue"
 import WorkingComponent from "./pages/works.vue"
 import WorkingIllustrationComponent from "./pages/works/illust.vue"
 import WorkingETCComponent from "./pages/works/etc.vue"
+import WorkingDojoComponent from "./pages/works/dojo.vue"
 
 
 const vuetify = createVuetify({
@@ -26,6 +27,7 @@ const Link = { template: '<div>Link</div>' }
 const Works = { template: '<div>Works</div>' }
 const Willust = { template: '<div>Illust</div>' }
 const Wetc = { template: '<div>etc</div>' }
+const WDojo = { template: '<div>Dojo</div>' }
 
 const routes = [
     { path: '/', component: HomeComponent },
@@ -34,6 +36,7 @@ const routes = [
     { path: '/works', component: WorkingComponent },
     { path: '/works/illust', component: WorkingIllustrationComponent },
     { path: '/works/etc', component: WorkingETCComponent },
+    { path: '/works/dojo', component: WorkingDojoComponent },
 ]
 
 const router = createRouter({
