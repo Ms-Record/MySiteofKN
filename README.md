@@ -3,4 +3,4 @@
 
 ## Webページのプレビュー
 
-https://github.com/Ms-Record/MySiteofKN/blob/master/src/assets/mysite_sample_Chrome.gif
+![mysite_sample_Chrome](https://github.com/Ms-Record/MySiteofKN/assets/76523203/e8c3d665-99b8-455a-9195-81c30c91d61c)
