@@ -17,7 +17,7 @@
         <template #heading>
             今日の創造
         </template>
-        <a href="./html/index.html">第一回HTML道場</a><br />
+        <a href="./src/pages/html/index.html">第一回HTML道場</a><br />
         <router-link to="./VueDojo/dojoworks/work1">Vue道場 2023_0829</router-link>
 
     </WelcomeItem>
