@@ -8,17 +8,7 @@
     建設中…
     <br />
     <TheWelcome />
-    <WelcomeItem>
-        <template #icon>
 
-        </template>
-        <template #heading>
-            今日の知見
-        </template>
-        <router-link to="./HTMLDojo/Dojo_text/memo1">第一回HTML道場</router-link>
-        
-
-    </WelcomeItem>
 
     <WelcomeItem>
         <template #icon>
