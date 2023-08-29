@@ -6,7 +6,9 @@
         components: {
             HelloWorld,
             TheWelcome,
-        }
+        },
+       
+        
     }
 
 </script>

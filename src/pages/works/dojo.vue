@@ -10,28 +10,31 @@
     <TheWelcome />
     <WelcomeItem>
         <template #icon>
-            
+
         </template>
         <template #heading>
             今日の知見
         </template>
-
+        <router-link to="./HTMLDojo/Dojo_text/memo1">第一回HTML道場</router-link>
+        
 
     </WelcomeItem>
 
     <WelcomeItem>
         <template #icon>
-            
+
         </template>
         <template #heading>
             今日の創造
         </template>
+        <a href="./html/index.html">第一回HTML道場</a><br />
+        <router-link to="./VueDojo/dojoworks/work1">Vue道場 2023_0829</router-link>
 
     </WelcomeItem>
 
     <WelcomeItem>
         <template #icon>
-           
+
         </template>
         <template #heading>
             今日の破壊
@@ -39,5 +42,8 @@
 
     </WelcomeItem>
     <br />
+    <router-link to="/works">exit</router-link>
+
+
 </template>
 

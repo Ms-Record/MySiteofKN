@@ -14,6 +14,10 @@ import WorkingComponent from "./pages/works.vue"
 import WorkingIllustrationComponent from "./pages/works/illust.vue"
 import WorkingETCComponent from "./pages/works/etc.vue"
 import WorkingDojoComponent from "./pages/works/dojo.vue"
+import HTMLDojoComponent from "./pages/works/HTMLDojo/Dojo_text/memo1.vue"
+import VueWorkDojoComponent from "./pages/works/VueDojo/dojoworks/work1.vue"
+
+
 
 
 const vuetify = createVuetify({
@@ -28,6 +32,10 @@ const Works = { template: '<div>Works</div>' }
 const Willust = { template: '<div>Illust</div>' }
 const Wetc = { template: '<div>etc</div>' }
 const WDojo = { template: '<div>Dojo</div>' }
+const HTMLDojo = { template: '<div>HTMLdojo</div>' }
+const VueWorkDojo = { template: '<div>VueWorks</div>' }
+
+
 
 const routes = [
     { path: '/', component: HomeComponent },
@@ -37,6 +45,9 @@ const routes = [
     { path: '/works/illust', component: WorkingIllustrationComponent },
     { path: '/works/etc', component: WorkingETCComponent },
     { path: '/works/dojo', component: WorkingDojoComponent },
+    { path: '/works/HTMLDojo/Dojo_text/memo1', component: HTMLDojoComponent },
+    { path: '/works/VueDojo/dojoworks/work1', component: VueWorkDojoComponent },
+
 ]
 
 const router = createRouter({
