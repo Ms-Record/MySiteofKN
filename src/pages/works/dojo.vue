@@ -1,4 +1,5 @@
-﻿<script setup>
+﻿﻿
+<script setup>
     import WelcomeItem from '../../components/WelcomeItem.vue'
     import AboutIcon from '../../components/icons/IconAbout.vue'
     import SNSicon from '../../components/icons/IconSNS.vue'
@@ -17,7 +18,7 @@
         <template #heading>
             今日の創造
         </template>
-        <a href="./src/pages/html/index.html">第一回HTML道場</a><br />
+        <router-link to="./HTMLDojo/html/htmlDojorevues">HTML道場_Preview</router-link><br />
         <router-link to="./VueDojo/dojoworks/work1">Vue道場 2023_0829</router-link>
 
     </WelcomeItem>
@@ -36,4 +37,3 @@
 
 
 </template>
-
