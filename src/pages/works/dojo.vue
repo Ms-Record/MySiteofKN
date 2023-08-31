@@ -18,7 +18,8 @@
         <template #heading>
             今日の創造
         </template>
-        <router-link to="./HTMLDojo/html/htmlDojorevues">HTML道場_Preview</router-link><br />
+        <router-link to="./HTMLDojo/html/htmlDojorevues">第一回HTML道場_Preview</router-link><br />
+        <router-link to="./HTMLDojo/html/htmlDojorevues_2">第二回HTML道場_Preview</router-link><br />
         <router-link to="./VueDojo/dojoworks/work1">Vue道場 2023_0829</router-link>
 
     </WelcomeItem>

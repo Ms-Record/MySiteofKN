@@ -16,6 +16,7 @@ import WorkingETCComponent from "./pages/works/etc.vue"
 import WorkingDojoComponent from "./pages/works/dojo.vue"
 import VueWorkDojoComponent from "./pages/works/VueDojo/dojoworks/work1.vue"
 import HTMLDojoComponent from "./pages/works/HTMLDojo/html/htmlDojorevues.vue"
+import HTMLDojo2Component from "./pages/works/HTMLDojo/html/htmlDojorevues_2.vue"
 
 
 
@@ -34,6 +35,7 @@ const Wetc = { template: '<div>etc</div>' }
 const WDojo = { template: '<div>Dojo</div>' }
 const VueWorkDojo = { template: '<div>VueWorks</div>' }
 const HTMLDojo = { template: '<div>HTMLDojo</div>' }
+const HTMLDojo2 = { template: '<div>HTMLDojo2</div>' }
 
 
 
@@ -48,6 +50,7 @@ const routes = [
     { path: '/works/dojo', component: WorkingDojoComponent },
     { path: '/works/VueDojo/dojoworks/work1', component: VueWorkDojoComponent },
     { path: '/works/HTMLDojo/html/htmlDojorevues', component: HTMLDojoComponent },
+    { path: '/works/HTMLDojo/html/htmlDojorevues_2', component: HTMLDojo2Component },
 ]
 
 const router = createRouter({
