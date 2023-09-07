@@ -26,9 +26,9 @@
         <v-btn @click="getDog">CLICK HERE</v-btn>
         <br />
     </v-card-actions>
-
+    
     <br />
-    <img v-if="dog" :src="dog.message">
+    <img v-if="dog" :src="dog.message"  width="200" height="200">
     <br />
     <br />
     <router-link to="/works/dojo">exit</router-link>

@@ -2,6 +2,7 @@
     import HelloWorld from './components/HelloWorld.vue'
     import TheWelcome from './components/TheWelcome.vue'
 
+
     export default {
         components: {
             HelloWorld,
