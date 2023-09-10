@@ -1,5 +1,4 @@
-﻿
-<template>
+﻿<template>
     建設中…
     <br />
 ☆今日の創造☆<br/>
@@ -9,7 +8,7 @@
         <router-link to="./VueDojo/dojoworks/work1">Vue道場 2023_0829</router-link><br />
         <router-link to="./VueDojo/dojoworks/work2">Vue道場 2023_0905</router-link><br />
 
-☆今日の破壊☆<br />
+
 
 
     <br />

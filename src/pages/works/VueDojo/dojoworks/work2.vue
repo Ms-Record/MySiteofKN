@@ -1,6 +1,6 @@
 ﻿<script>
     import HelloWorld from '../../../../components/HelloWorld.vue'
-    import * as Misskey from 'misskey-js'
+    import { ref } from 'vue'
 
     export default {
         components: {
@@ -8,32 +8,24 @@
         },
         data() {
             return {
-                dog: undefined,
-                misskey: undefined,
+                secretText: true,
                 mojiretsu: "我はここにあり",
                 suuji: "42",
                 mojire2: true,
-                misskeyapi: undefined,
+                message: ref('')
             }
-
         },
         methods: {
-            async helloMisskey() {
-                const cli = new Misskey.api.APIClient({
-                    origin: 'https://misskey.systems',
-                    credential: 'EK3w2VpwxgF5x4b26obXncBvfqz8rZFa',
-                });
-
-                const meta = await cli.request('i', { detail: true });
-                this.misskey = meta
-                this.misskeyapi = "みすてむずの情報が表示されました"
-                console.log(this.misskey)
+            async secret() {
+                this.secretText = !this.secretText
+                const message = ref('')
             },
             async mojikae() {
                 this.mojire2 = !this.mojire2
                 console.log("文字が変更されてますか？", this.mojire2);
             },
-        },
+        }
+ 
     }
 </script>
 <template>
@@ -70,5 +62,15 @@
     <v-btn @click="mojikae">今は？</v-btn>
     <div>{{mojire2?"我はここにあり":"我はそこにいた"}}</div>
     <br />
+    <v-btn @click="secret">{{secretText?"おや？":"ワァ見つかっちゃったァ！"}}</v-btn>
+    <div>
+        {{secretText?"":"下記入力欄にキーワードを入れると秘密のページに行けます！"}}<br />
+        {{secretText?"":"キーワードはどこかにあります。"}}<br />
+    </div>
+        <input v-if="!this.secretText" v-model="message" style="cursor:pointer" placeholder="キーワード入力はここへ"><br />
+        <div v-if="message ===''">{{secretText?"":"キーワードを入力してね"}}</div>
+        <div v-if="message === 'secret1'"><router-link to="../../VueKadai/secret">>></router-link></div>
+        <div v-if="message !=='' && 'secret1'"><router-link to="../../VueKadai/huseikai">></router-link></div>
+
     <router-link to="/works/dojo">exit</router-link>
 </template>

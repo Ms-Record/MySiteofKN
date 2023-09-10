@@ -1,4 +1,4 @@
-import './assets/main.css'
+﻿import './assets/main.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
@@ -18,7 +18,9 @@ import VueWorkDojoComponent from "./pages/works/VueDojo/dojoworks/work1.vue"
 import VueWorkDojo2Component from "./pages/works/VueDojo/dojoworks/work2.vue"
 import HTMLDojoComponent from "./pages/works/HTMLDojo/html/htmlDojorevues.vue"
 import HTMLDojo2Component from "./pages/works/HTMLDojo/html/htmlDojorevues_2.vue"
-
+import VueKadaiComponent from "./pages/works/VueKadai/kadai1.vue"
+import secretComponent from "./pages/works/VueKadai/secret.vue"
+import IncorrectComponent from "./pages/works/VueKadai/huseikai.vue"
 
 
 
@@ -38,6 +40,9 @@ const VueWorkDojo = { template: '<div>VueWorks1</div>' }
 const VueWorkDojo2 = { template: '<div>VueWorks2</div>' }
 const HTMLDojo = { template: '<div>HTMLDojo</div>' }
 const HTMLDojo2 = { template: '<div>HTMLDojo2</div>' }
+const VueKadai = { template: '<div>VueKadai</div>' }
+const secret = { template: '<div>secret</div>' }
+const Incorrect = { template: '<div>incorrect</div>' }
 
 
 
@@ -54,6 +59,9 @@ const routes = [
     { path: '/works/VueDojo/dojoworks/work2', component: VueWorkDojo2Component },
     { path: '/works/HTMLDojo/html/htmlDojorevues', component: HTMLDojoComponent },
     { path: '/works/HTMLDojo/html/htmlDojorevues_2', component: HTMLDojo2Component },
+    { path: '/works/VueKadai/kadai1', component: VueKadaiComponent },
+    { path: '/works/VueKadai/secret', component: secretComponent },
+    { path: '/works/VueKadai/huseikai', component: IncorrectComponent },
 ]
 
 const router = createRouter({
