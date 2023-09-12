@@ -63,14 +63,15 @@
     <div>{{mojire2?"我はここにあり":"我はそこにいた"}}</div>
     <br />
     <v-btn @click="secret">{{secretText?"おや？":"ワァ見つかっちゃったァ！"}}</v-btn>
-    <div>
+    <div v-if="!this.secretText">
         {{secretText?"":"下記入力欄にキーワードを入れると秘密のページに行けます！"}}<br />
         {{secretText?"":"キーワードはどこかにあります。"}}<br />
-    </div>
-        <input v-if="!this.secretText" v-model="message" style="cursor:pointer" placeholder="キーワード入力はここへ"><br />
+        <input v-model="message" style="cursor:pointer" placeholder="キーワード入力はここへ"><br />
         <div v-if="message ===''">{{secretText?"":"キーワードを入力してね"}}</div>
         <div v-if="message === 'secret1'"><router-link to="../../VueKadai/secret">>></router-link></div>
-        <div v-if="message !=='' && 'secret1'"><router-link to="../../VueKadai/huseikai">></router-link></div>
-
+        <div v-else><router-link to="../../VueKadai/huseikai">></router-link></div>
+    </div>
+       
+    <br/>
     <router-link to="/works/dojo">exit</router-link>
 </template>
