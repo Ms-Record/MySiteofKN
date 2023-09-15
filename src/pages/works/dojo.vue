@@ -14,7 +14,7 @@
     <br />
     <router-link to="./VueDojo/dojoworks/work3">Vue道場 2023_0912</router-link>
     <br />
-    <router-link to="./VueDojo/dojoworks/work4">Vue道場 2023_0913</router-link>
+    <router-link to="./VueDojo/dojoworks/work4">Vue道場 2023_0913&0915</router-link>
     <br />
     <br />
     <router-link to="/works">exit</router-link>
